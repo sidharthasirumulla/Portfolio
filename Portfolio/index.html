@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidhartha Sirumulla | Data & BI Analyst</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- GRID OVERLAY -->
+<div class="grid-overlay"></div>
+
+<!-- 3D CANVAS -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+  <a href="/">
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/power-bi-icon.png" alt="Brand Logo" class="logo-img">
+  </a>
+</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#powerbi">Power BI</a></li>
+    <li><a href="#fabric">Fabric</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <div class="hero-tag">Data Analyst & BI Specialist</div>
+  <h1 class="hero-name">
+    Sidhartha<br>
+    <span>Sirumulla</span>
+  </h1>
+  <p class="hero-title">
+    Transforming raw data into strategic intelligence. Specializing in Python analytics, Power BI dashboards, and SQL-driven insights that power real decisions.
+  </p>
+  <div class="hero-btns">
+    <a href="#projects" class="btn-primary">View Projects →</a>
+    <a href="#contact" class="btn-outline">Get in Touch</a>
+  </div>
+  <div class="hero-stats">
+    <div>
+      <div class="stat-num">1+</div>
+      <div class="stat-label">Years of Experience</div>
+    </div>
+    <div>
+      <div class="stat-num">7+</div>
+      <div class="stat-label">Live Projects</div>
+    </div>
+    <div>
+      <div class="stat-num">3</div>
+      <div class="stat-label">Certifications</div>
+    </div>
+    <div>
+      <div class="stat-num">50k+</div>
+      <div class="stat-label">Records Analyzed</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-header reveal">
+    <div class="sec-tag">Who I Am</div>
+    <h2 class="sec-title">About <em>Me</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a Data Analyst and BI Analyst with a B.Tech in Computer Science Engineering (Networks) from KITS, Warangal. My passion lies at the intersection of data, visualization, and storytelling.</p>
+      <p>With hands-on experience at Infosys Springboard and the Government of Telangana's APPC program, I've worked on everything from geospatial disaster analysis to government policy dashboards using Python, SQL, Power BI, and Looker Studio.</p>
+      <p>I believe data should tell a story — and I build the infrastructure, pipelines, and visuals that make that story crystal clear to any stakeholder.</p>
+    </div>
+    <div class="about-visual reveal">
+      <div class="profile-card">
+        <div class="profile-avatar">
+        <img src="assets\SID.png" alt="Sidhartha Sirumulla">
+        </div>
+        <div class="profile-name">Sidhartha Sirumulla</div>
+        <div class="profile-role">Data Analyst / BI Analyst</div>
+        <div class="profile-info-item">
+          <span class="info-icon">📍</span>
+          <span>Hanamkonda, Telangana, India</span>
+        </div>
+        <div class="profile-info-item">
+          <span class="info-icon">🎓</span>
+          <span>B.Tech – CSE (Networks), KITS Warangal</span>
+        </div>
+        <div class="profile-info-item">
+          <span class="info-icon">✉️</span>
+          <span>sidharthasirumulla16@gmail.com</span>
+        </div>
+        <div class="profile-info-item">
+          <span class="info-icon">📞</span>
+          <span>+91-9346546801</span>
+        </div>
+        <div class="profile-info-item">
+          <span class="info-icon">🔗</span>
+          <a href="https://linkedin.com/in/sidharthasirumulla" target="_blank" style="color:var(--accent);text-decoration:none;">linkedin.com/in/sidharthasirumulla</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-header reveal">
+    <div class="sec-tag">Capabilities</div>
+    <h2 class="sec-title">Technical <em>Skills</em></h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-icon">📊</div>
+      <div class="skill-cat">Data Analysis</div>
+      <div class="skill-tags">
+        <span class="skill-tag">EDA</span>
+        <span class="skill-tag">Data Cleaning</span>
+        <span class="skill-tag">Statistical Analysis</span>
+        <span class="skill-tag">Data Processing</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-cat">Programming</div>
+      <div class="skill-tags">
+        <span class="skill-tag purple">Python</span>
+        <span class="skill-tag purple">Pandas</span>
+        <span class="skill-tag purple">NumPy</span>
+        <span class="skill-tag purple">Matplotlib</span>
+        <span class="skill-tag purple">Seaborn</span>
+        <span class="skill-tag purple">Plotly</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">📈</div>
+      <div class="skill-cat">Visualization Tools</div>
+      <div class="skill-tags">
+        <span class="skill-tag orange">Power BI</span>
+        <span class="skill-tag orange">Tableau</span>
+        <span class="skill-tag orange">Looker Studio</span>
+        <span class="skill-tag orange">Excel</span>
+        <span class="skill-tag orange">Snowflake</span>
+        <span class="skill-tag orange">SAP Workspace</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🗄️</div>
+      <div class="skill-cat">Databases & Engineering</div>
+      <div class="skill-tags">
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">ETL Pipelines</span>
+        <span class="skill-tag">Data Modeling</span>
+        <span class="skill-tag">Data Warehousing</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">☁️</div>
+      <div class="skill-cat">Tools & Platforms</div>
+      <div class="skill-tags">
+        <span class="skill-tag purple">Jupyter</span>
+        <span class="skill-tag purple">Google Colab</span>
+        <span class="skill-tag purple">VS Code</span>
+        <span class="skill-tag purple">AWS RDS</span>
+        <span class="skill-tag purple">SAP</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🤝</div>
+      <div class="skill-cat">Soft Skills</div>
+      <div class="skill-tags">
+        <span class="skill-tag orange">Communication</span>
+        <span class="skill-tag orange">Adaptability</span>
+        <span class="skill-tag orange">Attention to Detail</span>
+        <span class="skill-tag orange">Problem-Solving Ability</span>
+        <span class="skill-tag orange">Time Management</span>       
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-header reveal">
+    <div class="sec-tag">Work</div>
+    <h2 class="sec-title">Featured <em>Projects</em></h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-accent-bar"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 01</div>
+        <div class="project-title">US Natural Disaster Trends & Pattern Analysis</div>
+      </div>
+      <div class="project-desc">
+        Cleaned and analyzed 70+ years of FEMA disaster data. Built Power BI dashboards to visualize climate-driven trends with geospatial insights via Plotly and Folium. Delivered end-to-end storytelling for Infosys Springboard.
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">Power BI</span>
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">Folium</span>
+          <span class="tech-badge">Plotly</span>
+        </div>
+        <a href="http://github.com/GKSJ19/USND/tree/sidharthasirumulla" target="_blank" class="project-link">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-accent-bar" style="background: linear-gradient(90deg, var(--accent2), var(--accent3));"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 02</div>
+        <div class="project-title">Rides Analytics — Rapido 2026</div>
+      </div>
+      <div class="project-desc">
+        Urban mobility analysis on 50,000+ records using Looker Studio & SQL. Identified demand patterns across city zones, improving demand-forecasting accuracy by 20% through data-driven segmentation.
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">SQL</span>
+          <span class="tech-badge">Looker Studio</span>
+          <span class="tech-badge">EDA</span>
+        </div>
+        <a href="https://datastudio.google.com/s/gPNARPg9HOo" class="project-link">Live →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-accent-bar" style="background: linear-gradient(90deg, var(--accent3), var(--gold));"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 03</div>
+        <div class="project-title">Employee Salary Prediction — ML Pipeline</div>
+      </div>
+      <div class="project-desc">
+        End-to-end ML pipeline using Scikit-learn. Implemented Random Forest and Linear Regression models evaluated with R² and MSE metrics. Developed during AI/Data Science traineeship at Govt. of Telangana, APPC.
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">Scikit-learn</span>
+          <span class="tech-badge">Random Forest</span>
+          <span class="tech-badge">Python</span>
+        </div>
+        <a href="https://github.com/sidharth2025-net/Employee-Salary-Prediction-with-Google-Colab" class="project-link">Details →</a>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-accent-bar" style="background: linear-gradient(90deg, var(--accent3), var(--gold));"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 04</div>
+        <div class="project-title">E-Commerce Customer Segmentation Using RFM Analysis</div>
+      </div>
+      <div class="project-desc">
+        Segment an e-commerce customer base using Recency, Frequency, and Monetary (RFM) metrics to identify high-value buyers, loyal customers, and at-risk segments for targeted marketing campaigns.
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">Data cleaning</span>
+          <span class="tech-badge">Statistical clustering</span>
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">Data visualization</span>
+        </div>
+        <a href="https://github.com/sidharth2025-net/Employee-Salary-Prediction-with-Google-Colab" class="project-link">Details →</a>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-accent-bar" style="background: linear-gradient(90deg, var(--accent3), var(--gold));"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 05</div>
+        <div class="project-title">Healthcare Clinical Outcomes Dashboard</div>
+      </div>
+      <div class="project-desc">
+        Build an end-to-end data pipeline and interactive analytics dashboard to track patient readmission rates, monitor treatment efficacy, and identify operational bottlenecks across hospital departments.
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">KPI definition</span>
+          <span class="tech-badge">Data modeling</span>
+          <span class="tech-badge">Healthcare metrics analysis</span>
+          <span class="tech-badge">Reporting & Dashboard Design</span>
+          <span class="tech-badge">SQL</span>
+        </div>
+        <a href="https://github.com/sidharth2025-net/Employee-Salary-Prediction-with-Google-Colab" class="project-link">Details →</a>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-accent-bar" style="background: linear-gradient(90deg, var(--accent3), var(--gold));"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 06</div>
+        <div class="project-title">Global Web Traffic Analytics 2026</div>
+      </div>
+      <div class="project-desc">
+        Built a scalable regional analytics solution using Microsoft Fabric to integrate and analyze global web traffic datasets. Developed KPI-driven dashboards and custom DAX measures that enhanced reporting accuracy by 20% and boosted user engagement visibility by 25%.
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">Data Lakehouse and Warehouse</span>
+          <span class="tech-badge">Power Query, SQL and DAX</span>
+          <span class="tech-badge">Fabric Worksapce and Power BI Services</span>
+          <span class="tech-badge">Reporting & Dashboard Design</span>
+        </div>
+        <a href="https://www.linkedin.com/posts/sidharthasirumulla_microsoftfabric-powerbi-dataanalytics-activity-7470759867130212352-FPp_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqn9mUB5ZMlwxEVdtscWoMRPlLfDWuDNyA" class="project-link">Linkedin →</a>
+      </div>
+    </div>
+        <div class="project-card reveal">
+      <div class="project-accent-bar" style="background: linear-gradient(90deg, var(--accent3), var(--gold));"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 07</div>
+        <div class="project-title">Supply Chain & Logistics Analytics</div>
+      </div>
+      <div class="project-desc">
+        Perform advanced SQL pipelines and Power BI dashboards, optimizing real-time inventory tracking, delivery logistics, and key supply chain performance metrics
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">Snowflake (Data Cleaning, Analysis)</span>
+          <span class="tech-badge">Power Query, SQL and DAX</span>
+          <span class="tech-badge">Power BI Services</span>
+          <span class="tech-badge">Reporting & Dashboard Design</span>
+        </div>
+        <a href="https://github.com/sidharthasirumulla/Supply-Chain-Logistics-Analytics/tree/main" class="project-link">Github →</a>
+      </div>
+    </div>
+        <div class="project-card reveal">
+      <div class="project-accent-bar" style="background: linear-gradient(90deg, var(--accent3), var(--gold));"></div>
+      <div class="project-header">
+        <div class="project-num">PROJECT — 08</div>
+        <div class="project-title">Customer Churn Prediction Analytics</div>
+      </div>
+      <div class="project-desc">
+        Deployed Scikit-learn predictive models in Python, integrating outputs with Power BI to deliver interactive, data-driven machine learning visualizations
+      </div>
+      <div class="project-footer">
+        <div class="project-tech">
+          <span class="tech-badge">Python, EDA</span>
+          <span class="tech-badge">Power Query, SQL and DAX</span>
+          <span class="tech-badge">Power BI Services</span>
+          <span class="tech-badge">Reporting & Dashboard Design</span>
+        </div>
+        <a href="https://github.com/sidharthasirumulla/Customer-Churn-Prediction-and-Retention-Analytics/tree/main" class="project-link">Github →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POWER BI -->
+<section id="powerbi">
+  <div class="sec-header reveal">
+    <div class="sec-tag">Dashboards</div>
+    <h2 class="sec-title">Power <em>BI</em> Work</h2>
+  </div>
+  <div class="embed-section reveal">
+    <div>
+      <p style="color:var(--text2);line-height:1.8;margin-bottom:2rem;">
+        I create interactive, decision-ready dashboards in Power BI using DAX formulas, Power Query transformations, and smart visual storytelling. My dashboards go beyond charts — they drive action.
+      </p>
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div style="display:flex;align-items:center;gap:1rem;padding:1rem;background:var(--card);border:1px solid var(--border);border-radius:8px;">
+          <span style="font-size:1.3rem;">⚡</span>
+          <div>
+            <div style="font-family:'Syne',sans-serif;font-weight:700;margin-bottom:0.2rem;">DAX & Power Query</div>
+            <div style="font-size:0.82rem;color:var(--text2);">Advanced calculations, row-level security, time intelligence</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;padding:1rem;background:var(--card);border:1px solid var(--border);border-radius:8px;">
+          <span style="font-size:1.3rem;">🗺️</span>
+          <div>
+            <div style="font-family:'Syne',sans-serif;font-weight:700;margin-bottom:0.2rem;">Geospatial Visuals</div>
+            <div style="font-size:0.82rem;color:var(--text2);">Map visuals, heatmaps, regional drill-throughs</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;padding:1rem;background:var(--card);border:1px solid var(--border);border-radius:8px;">
+          <span style="font-size:1.3rem;">🔗</span>
+          <div>
+            <div style="font-family:'Syne',sans-serif;font-weight:700;margin-bottom:0.2rem;">Data Model Design</div>
+            <div style="font-size:0.82rem;color:var(--text2);">Star schema, relationships, optimized data models</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="embed-card">
+      <div class="embed-header">
+        <div class="embed-icon">📊</div>
+        <div>
+          <div class="embed-title">Power BI Dashboards</div>
+          <div class="embed-sub">Certified PL-300 Analyst</div>
+        </div>
+      </div>
+      <div class="embed-body">
+        <div class="embed-placeholder">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qbvUV4KTbyE?si=7Yc1F6o_jWIjsCjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="embed-desc">Power BI Video.</p>
+        <a href="https://app.powerbi.com/reportEmbed?reportId=36af2a06-666a-4216-8c40-592ee96835f9&autoAuth=true&ctid=8b044e35-2c51-41ba-93f3-d1a107ca7c50" target="_blank" class="btn-primary" style="font-size:0.7rem;padding:0.7rem 1.5rem;">Open Power BI →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+    <div class="dashboard-container">
+        <h2 class="dashboard-header">Indian Financial Fraud Analytics</h2>
+        <div class="iframe-wrapper">
+            <iframe 
+                src="https://app.powerbi.com/reportEmbed?reportId=dce46975-b113-4dc8-ab34-bf86f8a69704&autoAuth=true&ctid=e24ac094-efd8-4a6b-98d5-a129b32a8c9a" 
+                allowFullScreen="true">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<!-- FABRIC -->
+<!-- FABRIC -->
+<section id="fabric">
+  <div class="sec-header reveal">
+    <div class="sec-tag">Microsoft Fabric</div>
+    <h2 class="sec-title">Fabric <em>Skills</em></h2>
+    <p style="line-height: 1.8; max-width: 700px; margin-bottom: 2rem;">
+      As a Microsoft Certified Fabric Analytics Engineer, I specialize in building scalable, end-to-end data solutions using the Fabric ecosystem. My expertise covers data ingestion, transformation, modeling, and real-time analytics to deliver actionable business insights.
+    </p>
+  </div>
+
+  <div class="fabric-features reveal">
+
+    <div class="fabric-feat">
+      <div class="fabric-feat-icon">
+    <img src="https://learn.microsoft.com/en-us/fabric/media/onelake-icon.png" alt="Microsoft Fabric OneLake" style="width: 1em; height: 1em; vertical-align: middle;">
+    </div>
+      <div class="fabric-feat-name">OneLake & Data Management</div>
+      <div class="fabric-feat-desc">
+        Implement unified data storage, manage lakehouse architecture, and optimize data organization using OneLake
+      </div>
+    </div>
+
+    <div class="fabric-feat">
+      <div class="fabric-feat-icon">
+    <img src="https://learn.microsoft.com/en-us/fabric/media/data-factory-icon.png" alt="Microsoft Fabric OneLake" style="width: 1em; height: 1em; vertical-align: middle;">
+    </div>
+      <div class="fabric-feat-name">Data Factory & ETL Pipelines</div>
+      <div class="fabric-feat-desc">
+        Design and orchestrate data pipelines, perform data ingestion, transformation, and scheduling using Dataflows Gen2
+      </div>
+    </div>
+
+    <div class="fabric-feat">
+        <div class="fabric-feat-icon">
+    <img src="https://learn.microsoft.com/en-us/fabric/media/fabric-data-warehouse-icon.png" alt="Microsoft Fabric OneLake" style="width: 1em; height: 1em; vertical-align: middle;">
+    </div>
+      <div class="fabric-feat-name">Lakehouse & Data Modeling</div>
+      <div class="fabric-feat-desc">
+        Build lakehouses, manage Delta tables, create semantic models, and optimize data structures for analytics
+      </div>
+    </div>
+
+    <div class="fabric-feat">
+        <div class="fabric-feat-icon">
+    <img src="https://learn.microsoft.com/en-us/fabric/media/fabric-data-engineering-icon.png" alt="Microsoft Fabric OneLake" style="width: 1em; height: 1em; vertical-align: middle;">
+    </div>
+      <div class="fabric-feat-name">Data Engineering</div>
+      <div class="fabric-feat-desc">
+        Use notebooks (PySpark), data transformations, and pipelines for large-scale data processing
+      </div>
+    </div>
+
+    <div class="fabric-feat">
+        <div class="fabric-feat-icon">
+    <img src="https://learn.microsoft.com/en-us/fabric/media/fabric-real-time-intelligence-icon.png" alt="Microsoft Fabric OneLake" style="width: 1em; height: 1em; vertical-align: middle;">
+    </div>
+      <div class="fabric-feat-name">Real-Time Analytics</div>
+      <div class="fabric-feat-desc">
+        Implement eventstream processing, KQL queries, and build real-time dashboards for streaming data insights
+      </div>
+    </div>
+
+    <div class="fabric-feat">
+      <div class="fabric-feat-icon">
+    <img src="https://learn.microsoft.com/en-us/fabric/media/power-bi-icon.png" alt="Microsoft Fabric OneLake" style="width: 1em; height: 1em; vertical-align: middle;">
+    </div>
+      <div class="fabric-feat-name">Power BI & DirectLake</div>
+      <div class="fabric-feat-desc">
+        Develop interactive dashboards, use DAX calculations, and leverage DirectLake for high-performance reporting
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+    <div class="dashboard-container">
+        <h2 class="dashboard-header">Web Global Traffic Analytics</h2>
+        
+        <!-- Video aspect ratio wrapper to maintain 16:9 look -->
+        <div class="iframe-wrapper">
+            <iframe 
+                src="https://app.fabric.microsoft.com/reportEmbed?reportId=e89445a3-4d3d-4ab9-aa49-cb456b6a0e8c&autoAuth=true&ctid=8b044e35-2c51-41ba-93f3-d1a107ca7c50" 
+                allowFullScreen="true">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="sec-header reveal">
+    <div class="sec-tag">Credentials</div>
+    <h2 class="sec-title">Certifi<em>cations</em></h2>
+  </div>
+  <div class="certs-grid">
+    <!-- Microsoft Certification -->
+    <div class="cert-card reveal">
+      <div class="cert-badge ms">
+        <!-- Option A: Using SVG or Image URL -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg" alt="Microsoft Logo" class="cert-logo">
+      </div>
+      <div class="cert-body">
+        <div class="cert-name">Microsoft Certified: Data Analyst Associate</div>
+        <div class="cert-issuer">Microsoft</div>
+        <a href="https://learn.microsoft.com/en-us/users/sidharthasirumulla-1014/credentials/cb4dd0cf2e31b02a?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" class="cert-link">View Credential →</a>
+      </div>
+    </div>
+    <!-- AWS Certification -->
+    <div class="cert-card reveal">
+      <div class="cert-badge aws">
+        <!-- Option B: Using FontAwesome / Devicon if loaded in your project -->
+        <img src="https://www.svgrepo.com/show/313522/aws.svg" alt="Microsoft Logo" class="cert-logo">
+      </div>
+      <div class="cert-body">
+        <div class="cert-name">AWS Ceritified Cloud Practitioner Foundational</div>
+        <div class="cert-issuer">Amazon Web Services</div>
+        <a href="https://www.credly.com/badges/2c34575e-73ba-4dc1-ade3-6cb97beffb94/linked_in_profile" target="_blank" class="cert-link">View Credential →</a>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-badge aws">
+        <!-- Option B: Using FontAwesome / Devicon if loaded in your project -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg" alt="Microsoft Logo" class="cert-logo">
+      </div>
+      <div class="cert-body">
+        <div class="cert-name">Microsoft Certfied: Fabric Analytics Engineering Associate</div>
+        <div class="cert-issuer">Microsoft</div>
+        <a href="https://learn.microsoft.com/en-us/users/sidharthasirumulla-1014/credentials/43c06d18aed2e075?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" class="cert-link">View Credential →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-header reveal">
+    <div class="sec-tag">Let's Talk</div>
+    <h2 class="sec-title">Get in <em>Touch</em></h2>
+  </div>
+  <div class="contact-wrapper">
+    <div class="contact-info reveal">
+      <p style="color:var(--text2);line-height:1.8;margin-bottom:2rem;">
+        Open to Data Analyst, BI Analyst, and Analytics Engineering roles. Feel free to reach out for collaborations, project discussions, or just to connect.
+      </p>
+      <div class="contact-item">
+        <div class="contact-icon">
+        <a href="mailto:sidharthasirumulla16@gmail.com" target="_blank" rel="noopener noreferrer"></a>
+        <img src="https://www.svgrepo.com/show/353812/google-gmail.svg" alt="Email Icon" width="24" height="24">
+        </div>
+        <div>
+          <div class="contact-label">Gmail</div>
+          <div class="contact-value">sidharthasirumulla16@gmail.com</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <a href="mailto:your.email@example.com" target="_blank" rel="noopener noreferrer"></a>
+        <img src="https://www.svgrepo.com/show/475692/whatsapp-color.svg" alt="Email Icon" width="24" height="24">
+        </div>
+        <div>
+          <div class="contact-label">WhatsApp</div>
+          <div class="contact-value">+91-9346546801</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <a href="https://www.linkedin.com/in/sidharthasirumulla/" target="_blank" rel="noopener noreferrer"></a>
+        <img src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="Email Icon" width="24" height="24">
+        </div>
+        <div>
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">linkedin.com/in/sidharthasirumulla</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">
+        <a href="https://www.google.com/maps/place/Hanamkonda,+Telangana/@18.0053935,79.4689394,12z/data=!3m1!4b1!4m6!3m5!1s0x3a334f75c05023ed:0x2352eaaf6fe897ea!8m2!3d18.0072341!4d79.5583921!16zL20vMDdxNjly?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"></a>
+        <img src="https://www.svgrepo.com/show/353819/google-maps.svg" alt="Email Icon" width="24" height="24">
+        </div>
+        <div>
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Hanamkonda, Telangana, India</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form reveal">
+      <div style="font-family:'Syne',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:0.3rem;">Send a Message</div>
+      <p style="font-size:0.82rem;color:var(--text2);margin-bottom:1.5rem;">Message delivered via Email & WhatsApp in real time.</p>
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" id="cf-name" placeholder="Your Name" />
+        </div>
+        <div class="form-group">
+          <label>Gmail</label>
+          <input type="email" id="cf-email" placeholder="you@example.com" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Phone / WhatsApp (optional)</label>
+        <input type="tel" id="cf-phone" placeholder="+91 9876543210" />
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <select id="cf-subject">
+          <option value="">Select a topic…</option>
+          <option>Job / Internship Opportunity</option>
+          <option>Project Collaboration</option>
+          <option>Freelance Work</option>
+          <option>General Enquiry</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea id="cf-message" placeholder="Tell me about your project or opportunity…"></textarea>
+      </div>
+      <button class="submit-btn" id="submitBtn" onclick="sendMessage()">Send Message ✈️</button>
+      <div class="form-status" id="formStatus"></div>
+      <p style="font-size:0.72rem;color:var(--text3);margin-top:1rem;text-align:center;font-family:'Space Mono',monospace;">Messages delivered to Email & WhatsApp simultaneously.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Sidhartha Sirumulla · Built with data, passion & precision.</p>
+</footer>
+<script src="JS\script.js"></script>
+
+
+<!-- EmailJS CDN (activate when credentials are ready) -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> -->
+</body>
+</html>
